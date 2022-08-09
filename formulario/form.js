@@ -65,14 +65,12 @@ botonUsers.addEventListener("click", () => {
     })
 })
 
-//Dropdown de Tema (Blanco o Negro)
+//Tema
 
 const botonDarkMode = document.getElementById("botonDarkMode")
 const botonLightMode = document.getElementById("botonLightMode")
 
 let darkMode
-
-//Operador Ternario
 
 (localStorage.getItem("theme")) ? darkMode = localStorage.getItem("theme") : localStorage.setItem("theme", "light")
 
